@@ -25,12 +25,15 @@ p{
     text-align: center;
     font-family: "poppins";
     text-align: left;
-    font-size: small;
    
+    font-size: small;
     
-
-
-} 
+}
+.Tkj:hover {
+    box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+    transform: scale(1);
+    transition: all 0.4s ease;
+}
 .Dkv{
     background-color: #f2f5f7;
      padding: 20px;
@@ -39,9 +42,12 @@ p{
      font-family: "poppins";
     text-align: left;
     font-size: small;
+}
+.Dkv:hover {
+     box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+     transition: all 0.4s ease;
+}
 
-     
-} 
 .Rpl{
     background-color: #f2f5f7;
     padding: 20px;
@@ -51,9 +57,12 @@ p{
     font-family: "poppins";
     text-align: left;
     font-size: small;
-
-    
 }
+.Rpl:hover{
+     box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+     transition: all 0.4s ease;
+}
+
 .judulTkj{
     background-color: rgb(255, 183, 0);
     border-radius: 5px;
@@ -67,6 +76,9 @@ p{
     
 
 }
+.judulTkj i{
+    color: #f2f5f7;
+}
 .juduldkv{
     color: white;
     background-color: rgb(255, 183, 0);
@@ -78,8 +90,12 @@ p{
     text-align: center;
     margin-top: 1px
     
-    }
-.judulrpl{
+}
+.juduldkv i{
+    color: #f2f5f7;
+}
+    
+.judulRPL{
     color: white;
     background-color: rgb(255, 183, 0);
     border-radius: 5px;
@@ -90,6 +106,9 @@ p{
     text-align: center;
     margin-top: 1px;
     color: white;
+}
+.judulRPL i{
+    color: #f2f5f7;
 }
 .DownloadSilabus{
     font-size: 16px;
@@ -135,11 +154,21 @@ p{
 }
 .li-a{
     color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    
 }
 .li-i{
     color: #687279;
+    text-decoration: none;
+    list-style-type: none;
 }
 .li-u{
     color: #687279;
+    text-decoration: none;
+    list-style-type: none;
 }
-    
+.fa-solid {
+    color: orange;
+    margin-right: 10px;
+}
