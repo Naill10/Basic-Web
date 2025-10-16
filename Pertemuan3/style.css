@@ -1,5 +1,10 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
 body{
     font-family: "Poppins", sans-serif;
+    justify-content: center;
+
 }
 img{
     width: auto;
@@ -7,13 +12,13 @@ img{
  
     margin-bottom: 20px;
     padding: 15px 10px 20px 0px;
-    
 }
-.container{
+.containernavbar{
     width: 90%;
     margin: 250px;
     margin-top: 10px;   
-    
+    font-family: "Poppins";
+
 }
 .navbar{
     justify-content: space-between;
@@ -53,7 +58,8 @@ img{
 
 .menu ul li a:hover{
    transform: translateZ(5px);
-   color: #99877f;
+   color: #ff7300;
+   transition: all 0.4s ease;
    
 }
 
@@ -149,18 +155,18 @@ img{
 }
 .spo{
   
-    margin-top: 100px;
+    margin-top:10px;
     font-size: 20px;
-    color: #0c084c;
-    
+    color: #08016e;
+   
     padding: 10px
 }
 .sat{
     display: flex;
-    padding-top: 10px;
-    gap: 75px;
-    
-  
+    gap: 65px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 200px;
 }
 .kata{
     padding-top: 15px;
@@ -192,6 +198,278 @@ img{
     border: none;
     box-shadow: none;
     height: auto;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-right: 180px;
+    padding-top: 40px; 
+    color: #687279;
+   
+  
+}
+.foto img{
+   width: px;
+   height: 350px;
+   padding: 0  3px;
+   margin-top: 20px;
+}
+    
+.foto3 img{
+   width: 290px;
+   height: 250px;
+   padding: 0  35px;
+}
+.foto2 img{
+     width: 359px;
+   height: 200px;
+   padding: 0  1px ;
+   margin-top: 10px;
+   block-size: 400px;
+}
+.card{
+    justify-content:space-around;
+}
+
+
+.card1{
+    background-color: #f2f5f7;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+   
+}
+.card1:hover{
+    box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
+    transform: translateY(-15);
+}
+.card2{
+    background-color: #FCEEEA;
+    border-radius: 25px;
+    transition: all0.3s ease;
+     box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+.card2:hover{
+    box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
+    transform: translateY(-15);
+}
+.card3{
+    background-color: #f2f5f7;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+.card3:hover{
+    box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
+    transform: translateY(-15);
+}
+.head{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+
+}
+
+.li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 40px;
+}
+.fa-solid{
+    font-size: 14px;
+}
+.li1 {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 40px;
+}
+.li2{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 14px;
+    padding-top: 40px;
+}
+
+ul li{
+    padding: 4px;
+}
+
+.h1 {
+    text-align: center;
+  
+}
+p{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.jurusan{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15;
+    margin-bottom: 20px;
+    
+}
+ .Tkj{
+    background-color:#f2f5f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "poppins";
+    text-align: left;
+   
+    font-size: small;
+    
+}
+.Tkj:hover {
+    box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+    transform: scale(1);
+    transition: all 0.4s ease;
+}
+.Dkv{
+    background-color: #f2f5f7;
+     padding: 20px;
+     border-radius: 20px;
+     text-align: center;
+     font-family: "poppins";
+    text-align: left;
+    font-size: small;
+}
+.Dkv:hover {
+     box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+     transition: all 0.4s ease;
+}
+
+.Rpl{
+    background-color: #f2f5f7;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: "poppins";
+    text-align: left;
+    font-size: small;
+}
+.Rpl:hover{
+     box-shadow: 0 8px 20px rgb(0,0,0,0.15);
+     transition: all 0.4s ease;
+}
+
+.judulTkj{
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    color: white;
     
 
+}
+.judulTkj i{
+    color: #f2f5f7;
+}
+.juduldkv{
+    color: white;
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px
+    
+}
+.juduldkv i{
+    color: #f2f5f7;
+}
+    
+.judulRPL{
+    color: white;
+    background-color: rgb(255, 183, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+    margin-top: 1px;
+    color: white;
+}
+.judulRPL i{
+    color: #f2f5f7;
+}
+.DownloadSilabus{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.DownloadSilabusdkv{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.DownloadSilabusrpl{
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(0, 0, 115);
+    padding: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.logotkj{
+    color: white;
+}
+.pla{
+    padding-bottom: 20px;
+}
+.pli{
+    padding-bottom: 20px;
+}
+.plu{
+    padding-bottom: 20px;
+}
+.li-a li{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+}
+.li-i li{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+}
+.li-u li{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 2px;
+}
+.fa-solid {
+    color: orange;
+    margin-right: 10px;
 }
