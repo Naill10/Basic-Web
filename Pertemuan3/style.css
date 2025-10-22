@@ -6,6 +6,8 @@ body{
     justify-content: center;
 
 }
+
+
 img{
     width: auto;
     height: 55px;
@@ -247,7 +249,7 @@ img{
 .card2{
     background-color: #FCEEEA;
     border-radius: 25px;
-    transition: all0.3s ease;
+    transition: all 0.3s ease;
      box-shadow:0 4px 10px rgba(0,0,0,0.15);
 }
 .card2:hover{
@@ -474,4 +476,49 @@ p{
     margin-right: 10px;
 }.containerIT{
     margin-top: -150px;
+    margin-left: 100px;
+}
+.karya{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+     gap: 95px;
+}
+.portofoliotkj  h3{
+    color: #0c084c;
+    font-size: 43px;
+    font-weight: 400;
+    padding-left: 39px;
+   
+}
+.vidiotkj iframe {
+    width: 744px;
+    height: 418px;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+.tkj{
+    font-size: 14px;
+    color: #0C084C;
+    padding-left: 30px;
+    
+}
+.A{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+  
+}
+.Portofoliolain {
+    text-decoration: none;
+    background-color: #0c084c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.Portofoliolain i{
+    color: white;
+    padding-left: 10px;
 }

@@ -1,0 +1,61 @@
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "satu dua tiga empat lima"
+
+}
+.satu {
+    background-color: rgb(182, 113, 250) ;
+    border-radius:10px;
+    padding: 10px;
+}
+.dua{
+    background-color: rgb(182, 113, 250) ;
+    border-radius:10px;
+    padding: 10px;
+}
+.tiga{
+    background-color: rgb(182, 113, 250) ;
+    border-radius:10px;
+    padding: 10px;
+}
+.empat{
+    background-color: rgb(182, 113, 250) ;
+    border-radius:10px;
+    padding: 10px;
+}
+.lima{
+    background-color: rgb(182, 113, 250) ;
+    border-radius:10px;
+    padding: 10px;
+}
+.container2{
+    display: grid;
+    grid-template-areas: "kolom1 kolom2" "kolom3 kolom4";
+    gap: 100px;
+    margin-top: 40px;
+}
+.container2 .konten1{
+    grid-area: "kolom1";
+    background-color: greenyellow;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container2 .konten2{
+    grid-area: "kolom2";
+    background-color: rgb(251, 255, 17);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container2 .konten3{
+    background-color: aquamarine;
+    grid-area: "kolom3";
+    padding: 20px;
+    border-radius: 10px;
+}
+.container2 .konten4{
+    background-color: rgb(121, 195, 255);
+    grid-area: "kolom4";
+    padding: 20px;
+    border-radius: 10px;
+}
