@@ -90,7 +90,7 @@ img{
     font-size: 40px;
     font-weight: 700;
     text-align: left;
-    color: rgb(0, 0, 138);
+    color: rgb(2, 2, 61);
     justify-content: center;
     
     
@@ -166,7 +166,7 @@ img{
   
     margin-top:10px;
     font-size: 20px;
-    color: #08016e;
+    color: #050046;
    
     padding: 10px
 }
@@ -529,89 +529,12 @@ p{
     color: white;
     padding-left: 10px;
 }
-.Modul_TKJ_Container {
+.Modul_TKJ_Container a{
     display: flex;
     justify-content: center;
     gap: 20px;
     padding: 50px 0;
-    width: 100%;
+    width: 500px;
   }
   
-  .Card1TKJ, .Card2TKJ, .Card3TKJ, .Card4TKJ{
-    border-radius: 25px;
-    padding: 30px;
-    width: 400px;
-  }
-  
-  .modul1_title, .modul2_title, .modul3_title, .modul4_title{
-    text-decoration:none;
-    color: black;
-    font-weight: bold;
-  }
-  
-  .Card1TKJ:hover, .Card2TKJ:hover, .Card3TKJ:hover, .Card4TKJ:hover {
-    border-radius: 25px;
-    padding: 30px;
-    width: 300px;
-  }
-  
-  .modul1, .modul2 , .modul3, .modul4 {
-    text-decoration: none;
-    border-radius: 8px;
-    background-color: #F1A204;
-    width: 100%;
-    text-align: center;
-    color: white;
-    padding: 8px 12px;
-    display: inline-block;
-  }
-  
-  .nama1tkj {
-    color: grey;
-    margin-top: 5px;
-    margin-bottom: 44px;
-  }
-  
-  .nama2tkj {
-    color: grey;
-    /* margin-bottom: -1px */
-  }
-  
-  .nama3tkj {
-    color: grey;
-    padding-top: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .nama4tkj {
-    color: grey;
-    margin-top: 5px;
-    margin-bottom: 20px;
-  }
-  
-  .modul1:hover, .modul2:hover, .modul3:hover, .modul4:hover {
-    background-color: #FF8C00;
-    transition: all 0.3s ease;
-  }
-  
-  .vdtkj{
-    width: 200px;
-    height: 200px;
-  }
-  .vdtkj5{
-    width: 200px;
-    height: 200px;
-   
-  }
-  .vdtkj3{
-    width: 200px;
-    height: 200px;
-  }
-  .vdtkj4{
-    width: 200px;
-    height: 200px;
-  }
-  .vdtkj2{
-    background-color: #4ccc11;
-    width: 200px;
-  }
+ 
