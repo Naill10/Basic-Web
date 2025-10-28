@@ -18,9 +18,10 @@ body{
 
 img{
     
-    /* height: 50px; */
+    
     margin-bottom: 10px;
     padding: 15px 10px 20px 0px;
+    
 }
 .containernavbar{
     width: 90%;
@@ -330,8 +331,9 @@ p{
     text-align: center;
     font-family: "poppins";
     text-align: left;
-   
+ 
     font-size: small;
+   
     
 }
 .Tkj:hover {
@@ -536,5 +538,47 @@ p{
     padding: 50px 0;
     width: 500px;
   }
+  .data_fade{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 50px;
+  }
+  .image {
+    height: 300px;
+    width: 300px
+}
+.porto1, .porto2, .porto3, .porto4 {
+    
+    padding: 20px;
+    text-align:start;
+    font-size: 14px;
+    color: #0C084C;
+    width: 250px;
+}
+.porto1{
+    
+}
+.porto2{
+    margin-left: 50px;
+}
+.porto3{
+    margin-left: 50px;
+}
+.porto4{
+    margin-left: 50px;
+}
+.text {
+    text-decoration: none;
+    color: #0C084C;
+    font-weight: 700;
+    font-size: 35px;
+}
+.name_porto     {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0c084c;
+    margin-top: 10px;
+}
   
  
