@@ -28,6 +28,8 @@ img{
     margin: 250px;
     margin-top: 10px;   
     font-family: "Poppins";
+    justify-content: center;
+    margin-left: 190px;
 
 }
 .navbar{
@@ -163,21 +165,25 @@ img{
 .fa-brands{
     margin-right: 10px;
 }
-.spo{
+.spo b{
   
-    margin-top:10px;
+    margin-top:20px;
     font-size: 20px;
-    color: #050046;
+    color: #02014b9c;
    
     padding: 10px
 }
-.sat{
+.sat {
     display: flex;
     gap: 65px;
     justify-content: center;
     margin-top: 50px;
     margin-right: 200px;
 }
+.opsi .sat1{
+    width: 200px;
+}
+
 .kata{
     padding-top: 15px;
     font-size: 25px;
@@ -187,7 +193,7 @@ img{
     font-size: 43px;
     font-weight: 400px;
     color: #0C084C;
-   margin-left: 370px;
+   margin-left: 320px;
     width: 850px;
     
 
@@ -199,7 +205,7 @@ img{
     font-size: 20px;
     font-weight: 100px;
     line-height: 16px;
-    margin-left: 200px;
+    margin-left: 180px;
  
 
 }
@@ -213,11 +219,11 @@ img{
 .card{
     display: flex;
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 155px;
     padding-right: 180px;
     padding-top: 40px; 
     color: #687279;
-   
+   gap: 50px;
   
 }
 .foto img{

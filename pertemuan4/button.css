@@ -8,17 +8,12 @@ body{
     background-color: rgb(255, 255, 255);
     padding: 40px;
 }
-.container{
+.container_bntDKV{
     max-width: 1100px;
     margin: auto;
     padding: 20px;
 }
-.title{
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 28px;
-    font-weight: 600;
-}
+
 .filter-buttons{
     text-align: center;
     margin-bottom: 30px;
@@ -51,7 +46,7 @@ body{
     
 }
 .gambar{
-    width: 30%;
+    width: 20%;
    
     transition: all 0.5s ease;
     background-color: #0a0a0abe;
