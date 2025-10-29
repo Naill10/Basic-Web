@@ -522,6 +522,23 @@ p{
     font-size: 20px;
   
 }
+.tutor{
+    font-family: "Poppins", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0C084C;
+} 
+.kredit{
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #0C084C; 
+    text-align: start;
+
+}
+
 .Portofoliolain {
     text-decoration: none;
     background-color: #0c084c;
@@ -639,4 +656,47 @@ p{
     line-height: 16px;
     border-radius: 4px;
     margin-top: 28px;
+}
+.hasil_karya{
+  
+    justify-content: center;
+    padding-bottom: 50px;
+    gap: 95px;
+}
+.portofoliodkv  {
+    color: #0c084c;
+    font-size: 43px;
+    font-weight: 400;
+    padding-left: 39px;
+    display: flex;
+    justify-content: center;
+}
+.faf {
+    color: #0c084c;
+    font-size: 43px;
+    font-weight: 400;
+    padding-left: 3px
+}
+.dkv{
+    font-size: 20px;
+    color: #0C084C;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.vidiodkv iframe {
+    width: 750px;
+    height: 450px;
+    border-radius: 15px;
+    margin-top: 30px;
+   display: flex;
+   justify-content: center;
+}
+.B{
+    color: #687279;
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 20px;
+ 
 }
