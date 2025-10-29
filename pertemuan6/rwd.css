@@ -1,0 +1,56 @@
+body{
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-left: -10px;
+}
+.card1{
+    background-color: red;
+    width: 30%;
+   
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card2{
+    background-color: rgb(0, 153, 255);
+    width: 30%;
+   
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.card3{
+    background-color: rgb(0, 204, 102);
+    width: 30%;
+   padding: 10px;
+  
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 400px){
+    
+    .container{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .card1, .card2, .card3{
+        margin: 10px ;
+        width: 100%;
+    }
+
+}
+

@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px){
+    .porto1, .porto2{
+        margin: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    
+}

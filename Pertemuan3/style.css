@@ -187,7 +187,7 @@ img{
     font-size: 43px;
     font-weight: 400px;
     color: #0C084C;
-   margin-left: 300px;
+   margin-left: 370px;
     width: 850px;
     
 
@@ -199,7 +199,8 @@ img{
     font-size: 20px;
     font-weight: 100px;
     line-height: 16px;
-    margin-left: 150px;
+    margin-left: 200px;
+ 
 
 }
 .e-con{
@@ -212,7 +213,7 @@ img{
 .card{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    margin-left: 200px;
     padding-right: 180px;
     padding-top: 40px; 
     color: #687279;
@@ -269,6 +270,7 @@ img{
     transition: all 0.3s ease;
     border-radius: 25px;
     box-shadow:0 4px 10px rgba(0,0,0,0.15);
+    margin-right: 200px;
 }
 .card3:hover{
     box-shadow: 0 8px 30px  rgba(0,0,0,0.15);
@@ -483,6 +485,7 @@ p{
 .fa-solid {
     color: orange;
     margin-right: 10px;
+    font-size: 20px;
 }.containerIT{
     margin-top: -150px;
     margin-left: 100px;
@@ -498,16 +501,15 @@ p{
     font-size: 43px;
     font-weight: 400;
     padding-left: 39px;
-   
 }
 .vidiotkj iframe {
-    width: 744px;
-    height: 418px;
+    width: 750px;
+    height: 450px;
     border-radius: 15px;
     margin-top: 30px;
 }
 .tkj{
-    font-size: 14px;
+    font-size: 20px;
     color: #0C084C;
     padding-left: 30px;
     
@@ -517,6 +519,7 @@ p{
     text-decoration: none;
     list-style-type: none;
     padding-top: 10px;
+    font-size: 20px;
   
 }
 .Portofoliolain {
@@ -525,7 +528,8 @@ p{
     color: white;
     padding: 10px;
     border-radius: 5px;
-    
+    text-align:left;
+    margin-left: 50px;
 }
 .Portofoliolain i{
     color: white;
@@ -555,10 +559,11 @@ p{
     font-size: 14px;
     color: #0C084C;
     width: 250px;
+    max-width: 250px;
 }
-.porto1{
+
     
-}
+
 .porto2{
     margin-left: 50px;
 }
@@ -572,7 +577,7 @@ p{
     text-decoration: none;
     color: #0C084C;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 20px;
 }
 .name_porto     {
     font-size: 18px;
@@ -580,5 +585,58 @@ p{
     color: #0c084c;
     margin-top: 10px;
 }
-  
- 
+.button1{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+    margin-top: 50px;
+}
+.button2{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+}
+.button3{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+    margin-top: 25px;
+}
+.button4{ 
+    text-decoration: none;
+    background-color: #F1A204;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 4px;
+    margin-top: 28px;
+}
