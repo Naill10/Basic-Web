@@ -10,21 +10,27 @@
     <div class="form-container">
         <h2>Form Pendaftaran</h2>
         <form action="" id="MyForm">
-         <div class="form-Group">
-            <label for="">Name</label>
-            <input type="text" id="name" 
-            placeholder="Enter your name">
+         <div class="form-group">
+            <label for="name">Name :</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            <div class="error" id="nameError"></div>
          </div>
-         <div class="form-Group">
-            <label for="">Email</label>
+         <div class="form-group">
+            <label for="email">Email :</label>
             <input type="text" id="email" 
             placeholder="Enter your email">
+            <div class="error" id="emailError"></div>
          </div>
             <div class="form-Group">
-                <label for="">Password</label>
+                <label for="password">Password :</label>
                 <input type="password" id="password" 
                 placeholder="Enter your password">
-        </form>
+                <div class="error" id="passwordError"></div>
+            </div>
+            <button type="submit">Enter</button>
+        </form> 
     </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
