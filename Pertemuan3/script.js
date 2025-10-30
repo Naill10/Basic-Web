@@ -1,24 +1,25 @@
-const all_buttons = document.querySelectorAll(".filter-btn")
-const all_images = document.querySelectorAll(".images")
+const semua_tombol = document.querySelectorAll(".filter-btn")
+const semua_gambar = document.querySelectorAll(".gambar")
 
-all_buttons.forEach((button) => {
-    button.addEventListener("click", () => {
+// TOMBOL
+semua_tombol.forEach((tombol_satuan) => {
+    tombol_satuan.addEventListener("click", () => {
 
-        // Bagian 1: Button
-        all_buttons.forEach((btn) => btn.classList.remove("active"))
-        button.classList.add("active")
+        // BAGIAN 1 TOMBOL
+        semua_tombol.forEach((btn) => btn.classList.remove("active"));
+        tombol_satuan.classList.add("active");
 
-        // Bagian 2: 
-        const filter = button.getAttribute("data-filter");
+        // BAGIAN 2 FILTER
+        const filter = tombol_satuan.getAttribute("data-filter");
 
-        // Bagian 3:
-        all_images.forEach((img) => {
-            if(filter === "all" || img.getAttribute("data-filter") === filter){
-                img.style.display = "block";
-            }
-            else{
-                img.style.display = "none";
+        // BAGIAN 3 GAMBAR
+        semua_gambar.forEach((gambar_satuan) => {
+            if (filter === "ALLS" || gambar_satuan.classList.contains
+                (filter))
+              {  gambar_satuan.style.display = "block"
+            } else{
+                gambar_satuan.style.display = "none"
             }
         });
     });
-});x
+});
