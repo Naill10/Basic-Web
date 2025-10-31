@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">p
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+        background-color: #7c7b7b;
+        border-radius: 5px;
+        padding: 20px;
+      
+        }
+        input[type="text"], select, textarea{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #757373;
+            border-radius: 6px;
+            margin-top: 6px;
+            box-sizing: border-box;
+            margin-bottom: 16px
+        }
+        input[type=button]{
+            background-color: rgb(204, 204, 204);
+            border-radius: 5px;
+            padding: 10px;
+        }
+        h3{
+            text-align: center;
+        }
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+        <h3>Contact Form</h3>
+        <form action="">
+            <label for="nama_lengkap">Full Name</label>
+             <input type="text" id="nama_lengkap" name="nama_lengkap" placeholder="isikan nama lengkap anda ...">
+             
+             <label for="negara">Country</label>
+             <select name="negara" id="negara">
+                <option value="Jepang">Japan</option>
+                <option value="singapura">Singapura</option>
+                <option value="rusia">Russia</option>
+                <option value="indonesia">Indonesia</option>
+                <option value="canada">Canada</option>
+                <option value="mexico">Mexico</option>
+                <option value="spanish">Spanish</option>
+                <option value="italian">Italian</option>
+             </select>
+              
+             <input type="radio" id="bogor" name="kota" value="Bogor"|>
+             <label for="bogor">Bogor</label><br>
+
+             <input type="radio" id="jakarta" name="kota" value="jakarta">
+             <label for="jakarta">Jakarta</label><br>
+              
+             <input type="radio" id="merauke" name="kota" value="Merauke">
+             <label for="merauke">Merauke</label>
+
+
+             <label for="subject">Subject</label>
+             <textarea name="subject" id="subject" 
+             placeholder="Write Something" 
+             style="height: 200px;"></textarea>
+             <input type="button" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
