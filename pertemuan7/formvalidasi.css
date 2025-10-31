@@ -18,12 +18,12 @@ h2{
    background-color: rgb(255,255,255);
    padding: 30px;
    border-radius: 10px;
-box-shadow: 30px 20px 10px rgba(0, 0, 0, 0.400);
+box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.400);
    max-width: 400px;
    transition: all 0.3s ease;
 }
 .form-container:hover{
-    box-shadow: 30px 20px 15px rgba(0, 0, 0, 0.600);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.600);
     transform: scale(1.02);}
 label{
     display: block;
@@ -35,7 +35,7 @@ input{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    border: 3px solid #000000;
+    border: 2px solid #000000;
     border-radius: 6px;
     font-size: 16px;
     outline: none;
@@ -60,4 +60,10 @@ button{
 button:hover{
     background-color: #218838;
     transition: 0.3s;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 10px;
 }
